@@ -1,50 +1,21 @@
-# Welcome to your Expo app 👋
+# zedge-task
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Used flashlist lib for efective multisized grid list. Good lib, gives control of lists and provides control.
 
-## Get started
+Used expo-video for video. Just simply render video while in view so that memory is not eaten up.
 
-1. Install dependencies
+Switch generated with AI, because did not had time to code from scratch.
 
-   ```bash
-   npm install
-   ```
+Initiated project with expo. Removed unused files and added tailwind(config is empty i used inline sizings). Used redux toolkit, because im familiar with it.
 
-2. Start the app
+Did not created env, because its just task.
 
-   ```bash
-   npx expo start
-   ```
+Homepage and modal views by expo router logic.
 
-In the output, you'll find options to open the app in a
+Definitely could improve rendering of videos. Add thumbnails, find memory leaks, dig deeper with research how best solution would look like. Did not had a lot of time to do it 100% because of holidays and my current work I was limited in time. Had to buy gifts too.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Added commands into package.json to build localy android and ios apps. Ios requires dev acc to develop on device, i dont have that. And I dont have android so I used emulators to develop.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Design i only looked at overall look. Button and grid list. Did not add tags if they were needed. Just funcionality as now. Could have used component library for ready components, but Thought of doing from scratch and keep things minimal.
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Overal list performace could be better i believe and videos could be rendered sooner, would need to do some architecture adjustments for logic and also do a bit more research or how to implement this/or even better look how pinterest does this or some other similar app.
