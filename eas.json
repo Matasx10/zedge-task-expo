@@ -9,7 +9,8 @@
         "simulator": true
       },
       "android": {
-        "buildType": "apk"
+        "buildType": "apk",
+        "autoIncrement": true
       }
     }
   }

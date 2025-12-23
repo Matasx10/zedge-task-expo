@@ -21,3 +21,7 @@ Design i only looked at overall look. Button and grid list. Did not add tags if 
 Overal list performace could be better i believe and videos could be rendered sooner, would need to do some architecture adjustments for logic and also do a bit more research or how to implement this/or even better look how pinterest does this or some other similar app.
 
 https://api-viz3tqcnyh.vercel.app/homework
+
+Problems faced: mainly that videos not paused/not played after switched from pets and humans. Because some events not triggered
+
+And also need version code fix, so that its incremented
