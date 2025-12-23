@@ -10,7 +10,8 @@
     "web": "expo start --web",
     "lint": "expo lint",
     "build:eas": "pnpm build:eas:ios && pnpm build:eas:android",
-    "build:eas:ios": "eas build --platform ios --profile preview --local",
+    "build:eas:ios:local": "eas build --platform ios --profile preview --local",
+    "build:eas:ios": "eas build --platform ios --profile preview",
     "build:eas:android:local": "eas build --platform android --profile preview --local",
     "build:eas:android": "eas build --platform android --profile preview"
   },
