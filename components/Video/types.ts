@@ -5,4 +5,5 @@ export interface VideoBaseProps {
   showControls?: boolean;
   isActive?: boolean;
   thumbnail?: string;
+  index: number;
 }

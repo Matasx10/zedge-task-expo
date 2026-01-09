@@ -60,6 +60,7 @@ export default function HomeScreen() {
                                 isActive={viewableIds.includes(item.id)}
                                 url={item.videoUrl}
                                 showControls={!item.autoplay}
+                                index={index}
                             />
                         </View>
 

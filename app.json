@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.masjsjd.zedgetask",
+      "bundleIdentifier": "com.masjsjd.videotask.dev",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }

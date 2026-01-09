@@ -24,4 +24,10 @@ https://api-viz3tqcnyh.vercel.app/homework
 
 Problems faced: mainly that videos not paused/not played after switched from pets and humans. Because some events not triggered
 
-And also need version code fix, so that its incremented
+And also need version code fix, so that its incremented etc.
+
+!UPDATE
+
+- added video manager as talked.
+- Ran on real device (iphone) - lag seems to be gone, everything works smooth.
+- All that is needed are thumbnails and additional functionality for scrolling to dont play videos etc. Things we dicussed via our interview.
