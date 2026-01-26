@@ -32,3 +32,5 @@ And also need version code fix, so that its incremented etc.
 - Ran on real device (iphone) - lag seems to be gone, everything works smooth.
 - All that is needed are thumbnails and additional functionality for scrolling to dont play videos etc. Things we dicussed via our interview.
 - Also moved for inline styles to creating stylesheet for memoization. As we discussed about that.
+
+- P.S screens should be moved outside app folder. A code smell that is left
